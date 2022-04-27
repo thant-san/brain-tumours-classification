@@ -1,1 +1,1 @@
-# project_mri
+# Brain Tumer Classification
