@@ -1,5 +1,5 @@
 numpy
-matplotlib
+matplotlib.pyplot
 tensorflow
 opencv-python-headless
 streamlit==0.64.0
