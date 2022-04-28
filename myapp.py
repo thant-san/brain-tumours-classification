@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image,ImageOps
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import tensorflow as tf
 import tensorflow_hub as hub
 import numpy as np
