@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Image.ImageOps
+from PLT import Image.ImageOps
 import matploblib.pyplot as plt
 import tensorflow as tf
 import tensorflow_hub as hub
