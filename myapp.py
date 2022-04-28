@@ -20,4 +20,11 @@ def main():
      st.write(result)
      st.pyplot(figure)
 def predict_class(image):
-     classifier_model=tf.keras.models.load_model(
+     classifier_model=tf.keras.models.load_model('cnn.h5')
+     shape={(100,100,3)}
+     tf.keras.Sequential(hub[hub.KerasLayer(classifier_model,input_shape=shape)])
+     test_image=image.resize((128,128))
+     test_image=preprocessing.image.img_to_array(test_image)
+     test_image=test_image/255.0
+     test_image=np.expand.dims(test_image,axis=0)
+     class_names=['glioma_tumor', 'pituitary_tumor', 'meningioma_tumor', 'no_tumor']
