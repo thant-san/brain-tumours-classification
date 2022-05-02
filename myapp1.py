@@ -22,4 +22,4 @@ st.image(img_reshape, caption='your mri image')
 prediction=model.predict(img_reshape)
 class_names=['glioma', 'pituitary', 'meningioma', 'no']
 string=class_names[np.argmax(prediction)]
-st.success("you have",string)
+st.write("you have",string)
