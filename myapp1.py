@@ -5,7 +5,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 #st.sidebar.write("Setting")
-model=load_model('neural_networks.h5')
+model=load_model('brain_tumor_neural_networks (1).h5')
 
 st.title("brain tumer classification",)
 st.header("insert ur  mri image",)
