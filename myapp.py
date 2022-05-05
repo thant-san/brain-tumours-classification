@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 model=load_model('cnn_model_65eps.h5')
 
-st.title("brain tumer classification",)
+st.title("Brain tumer classification",)
 st.header("insert ur  mri image",)
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
