@@ -24,10 +24,9 @@ class_names=['glioma_tumor','meningioma_tumor','no_tumor','pituitary_tumor']
 string=class_names[np.argmax(prediction)]
 st.write("you have",string)
 
-#with st.expander("KNOW MORE ABOUT SYMPTONS OF TUMOR"):
-     
-    option=st.selectbox('Select your tumor_type',('glioma_tumor','meningioma_tumor','pituitary_tumor'))
-    st.write('You have selected',option)
+with st.expander("KNOW MORE ABOUT SYMPTONS OF TUMOR"):
+     option=st.selectbox('Select your tumor_type',('glioma_tumor','meningioma_tumor','pituitary_tumor'))
+     st.write('You have selected',option)
      if option=='glioma_tumor':
         st.write("""Common symptoms of Gliomas:
                 Headache.
