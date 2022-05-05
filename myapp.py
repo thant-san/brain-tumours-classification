@@ -25,7 +25,7 @@ string=class_names[np.argmax(prediction)]
 st.write("you have",string)
 option=st.selectbox('Select your tumor_type',('none','glioma_tumor','meningioma_tumor','pituitary_tumor'))
 st.write('You have selected',option)
-if option=(glioma_tumor):
+#if option=(glioma_tumor):
     st.write('Common signs and symptoms of gliomas include:
                Headache.
                 Nausea or vomiting.
