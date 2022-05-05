@@ -29,7 +29,7 @@ with st.expander("KNOW MORE ABOUT SYMPTONS OF TUMOR"):
      st.write('You have selected',option)
      #if option=='glioma_tumor':
         #st.write("""
-                  Common symptoms of Gliomas:Headache.
+                      Common symptoms of Gliomas:Headache.
                       Nausea or vomiting.
                       Confusion or a decline in brain function.
                       Memory loss.
