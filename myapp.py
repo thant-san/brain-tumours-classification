@@ -24,10 +24,10 @@ class_names=['glioma_tumor','meningioma_tumor','no_tumor','pituitary_tumor']
 string=class_names[np.argmax(prediction)]
 st.write("you have",string)
 
-with st.expander("KNOW MORE ABOUT SYMPTONS OF TUMOR"):
-     option=st.selectbox('Select your tumor_type',('glioma_tumor','meningioma_tumor','pituitary_tumor'))
-     st.write('You have selected',option)
-     if option=='glioma_tumor':
+#with st.expander("KNOW MORE ABOUT SYMPTONS OF TUMOR"):
+ option=st.selectbox('Select your tumor_type',('glioma_tumor','meningioma_tumor','pituitary_tumor'))
+ st.write('You have selected',option)
+ if option=='glioma_tumor':
         st.write("""Common symptoms of Gliomas:
                 Headache.
                 Nausea or vomiting.
@@ -37,7 +37,7 @@ with st.expander("KNOW MORE ABOUT SYMPTONS OF TUMOR"):
                 Difficulty with balance.
                 Urinary incontinence.
                 Vision problems, such as blurred vision, double vision or loss of peripheral vision""")
-     elif option=='meningioma_tumor':
+ elif option=='meningioma_tumor':
          st.write ("""Common symptoms of Meningioma_tumor:
                 Changes in vision, such as seeing double or blurriness.
                 Headaches, especially those that are worse in the morning.
@@ -47,7 +47,7 @@ with st.expander("KNOW MORE ABOUT SYMPTONS OF TUMOR"):
                 Seizures.
                 Weakness in your arms or legs.
                 Language difficulty.""") 
-     elif option=='pituitary_tumor':
+elif option=='pituitary_tumor':
          st.write("""Nausea and vomiting.
                 Weakness.
                 Feeling cold.
@@ -55,7 +55,6 @@ with st.expander("KNOW MORE ABOUT SYMPTONS OF TUMOR"):
                 Sexual dysfunction.
                 Increased amount of urine.
                 Unintended weight loss or gain.""")
-
-     else :
+ else :
          st.write('please select')
     
