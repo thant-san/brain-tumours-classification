@@ -26,13 +26,13 @@ st.write("you have",string)
 option=st.selectbox('Select your tumor_type',('none','glioma_tumor','meningioma_tumor','pituitary_tumor'))
 st.write('You have selected',option)
 #if option=='glioma_tumor':
-    st.write('''Common signs and symptoms of gliomas include:
-               Headache.
+    st.write("""Common signs and symptoms of gliomas include:
+                Headache.
                 Nausea or vomiting.
                 Confusion or a decline in brain function.
                  Memory loss.
                 Personality changes or irritability.
                 Difficulty with balance.
                 Urinary incontinence.
-                Vision problems, such as blurred vision, double vision or loss of peripheral vision.''')
+                Vision problems, such as blurred vision, double vision or loss of peripheral vision""")
 else st.write('please'):
