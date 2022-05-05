@@ -35,4 +35,5 @@ if option=='glioma_tumor':
                 Difficulty with balance.
                 Urinary incontinence.
                 Vision problems, such as blurred vision, double vision or loss of peripheral vision""")
-else st.write('please'):
+else :
+    st.write('please')
