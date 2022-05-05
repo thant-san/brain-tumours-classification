@@ -23,3 +23,5 @@ prediction=model.predict(img_reshape)
 class_names=['glioma_tumor','meningioma_tumor','no_tumor','pituitary_tumor']
 string=class_names[np.argmax(prediction)]
 st.write("you have",string)
+option=st.selectbox('Select your tumor_type',('glioma_tumor','meningioma_tumor','pituitary_tumor'))
+st.write('You have selected',option)
