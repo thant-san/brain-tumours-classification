@@ -28,15 +28,16 @@ with st.expander("KNOW MORE ABOUT SYMPTONS OF TUMOR"):
      option=st.selectbox('Select your tumor_type',('glioma_tumor','meningioma_tumor','pituitary_tumor'))
      st.write('You have selected',option)
      #if option=='glioma_tumor':
-        #st.write("""Common symptoms of Gliomas:
-                      Headache.
+        #st.write("""
+                  Common symptoms of Gliomas:Headache.
                       Nausea or vomiting.
                       Confusion or a decline in brain function.
                       Memory loss.
                       Personality changes or irritability.
                       Difficulty with balance.
                       Urinary incontinence.
-                      Vision problems, such as blurred vision, double vision or loss of peripheral vision""")
+                      Vision problems, such as blurred vision, double vision or loss of peripheral vision
+                  """)
     # elif option=='meningioma_tumor':
          #st.write ("""Common symptoms of Meningioma_tumor:
                        Changes in vision, such as seeing double or blurriness.
