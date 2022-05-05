@@ -4,7 +4,7 @@ from PIL import Image,ImageOps
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
-#st.sidebar.write("Setting")
+
 model=load_model('cnn_model_65eps.h5')
 
 st.title("brain tumer classification",)
@@ -14,7 +14,7 @@ st.header("insert ur  mri image",)
 file_upload=st.file_uploader("choose the mri file",type=['jpg','png','jpeg'])
 
 image = Image.open(file_upload)
-size=(100,100)
+size=(227,227)
 image=ImageOps.fit(image,size,Image.ANTIALIAS)
 img=np.asarray(image)
 img_reshape=img[np.newaxis,...]
