@@ -52,7 +52,8 @@ with expander:
                        Weakness in your arms or legs.
                        Language difficulty.""") 
     elif option=='pituitary_tumor':
-         st.write("""Nausea and vomiting.
+         st.write(""" Common symptonms of pituitary:
+                     Nausea and vomiting.
                      Weakness.
                      Feeling cold.
                      Less frequent or no menstrual periods.
