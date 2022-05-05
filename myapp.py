@@ -37,7 +37,7 @@ if option=='glioma_tumor':
                 Difficulty with balance.
                 Urinary incontinence.
                 Vision problems, such as blurred vision, double vision or loss of peripheral vision""")
- elif option=='meningioma_tumor':
+elif option=='meningioma_tumor':
          st.write ("""Common symptoms of Meningioma_tumor:
                 Changes in vision, such as seeing double or blurriness.
                 Headaches, especially those that are worse in the morning.
