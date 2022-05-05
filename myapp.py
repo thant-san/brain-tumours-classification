@@ -14,7 +14,7 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 file_upload=st.file_uploader("choose the mri file",type=['jpg','png','jpeg'])
 
 image = Image.open(file_upload)
-size=(227,227)
+size=(227,227,3)
 image=ImageOps.fit(image,size,Image.ANTIALIAS)
 img=np.asarray(image)
 img_reshape=img[np.newaxis,...]
