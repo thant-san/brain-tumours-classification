@@ -14,7 +14,7 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 file_upload=st.file_uploader("choose the mri file",type=['jpg','png','jpeg'])
 
 image = Image.open(file_upload)
-size=(227,227,3)
+size=(227,227)
 image=ImageOps.fit(image,size,Image.ANTIALIAS)
 img=np.asarray(image)
 img_reshape=img[np.newaxis,...]
@@ -25,7 +25,7 @@ string=class_names[np.argmax(prediction)]
 st.write("you have",string)
 option=st.selectbox('Select your tumor_type',('none','glioma_tumor','meningioma_tumor','pituitary_tumor'))
 st.write('You have selected',option)
-#if option=(glioma_tumor):
+#if option=='glioma_tumor':
     st.write('Common signs and symptoms of gliomas include:
                Headache.
                 Nausea or vomiting.
