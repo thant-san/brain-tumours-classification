@@ -29,32 +29,32 @@ with st.expander("KNOW MORE ABOUT SYMPTONS OF TUMOR"):
      st.write('You have selected',option)
      #if option=='glioma_tumor':
         #st.write("""Common symptoms of Gliomas:
-                Headache.
-                Nausea or vomiting.
-                Confusion or a decline in brain function.
-                 Memory loss.
-                Personality changes or irritability.
-                Difficulty with balance.
-                Urinary incontinence.
-                Vision problems, such as blurred vision, double vision or loss of peripheral vision""")
+                      Headache.
+                      Nausea or vomiting.
+                      Confusion or a decline in brain function.
+                      Memory loss.
+                      Personality changes or irritability.
+                      Difficulty with balance.
+                      Urinary incontinence.
+                      Vision problems, such as blurred vision, double vision or loss of peripheral vision""")
     # elif option=='meningioma_tumor':
          #st.write ("""Common symptoms of Meningioma_tumor:
-                Changes in vision, such as seeing double or blurriness.
-                Headaches, especially those that are worse in the morning.
-                Hearing loss or ringing in the ears.
-                Memory loss.
-                Loss of smell.
-                Seizures.
-                Weakness in your arms or legs.
-                Language difficulty.""") 
+                       Changes in vision, such as seeing double or blurriness.
+                       Headaches, especially those that are worse in the morning.
+                       Hearing loss or ringing in the ears.
+                       Memory loss.
+                       Loss of smell.
+                       Seizures.
+                       Weakness in your arms or legs.
+                       Language difficulty.""") 
      #elif option=='pituitary_tumor':
          #st.write("""Nausea and vomiting.
-                Weakness.
-                Feeling cold.
-                Less frequent or no menstrual periods.
-                Sexual dysfunction.
-                Increased amount of urine.
-                Unintended weight loss or gain.""")
+                     Weakness.
+                     Feeling cold.
+                     Less frequent or no menstrual periods.
+                     Sexual dysfunction.
+                     Increased amount of urine.
+                     Unintended weight loss or gain.""")
      #else :
          #st.write('please select')
     
