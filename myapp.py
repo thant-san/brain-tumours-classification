@@ -23,10 +23,10 @@ prediction=model.predict(img_reshape)
 class_names=['glioma_tumor','meningioma_tumor','no_tumor','pituitary_tumor']
 string=class_names[np.argmax(prediction)]
 st.write("you have",string)
-option=st.selectbox('Select your tumor_type',('none','glioma_tumor','meningioma_tumor','pituitary_tumor'))
+option=st.selectbox('Select your tumor_type',('glioma_tumor','meningioma_tumor','pituitary_tumor'))
 st.write('You have selected',option)
 if option=='glioma_tumor':
-    st.write("""Common signs and symptoms of Gliomas include:
+    st.write("""Common symptoms of Gliomas:
                 Headache.
                 Nausea or vomiting.
                 Confusion or a decline in brain function.
@@ -35,5 +35,24 @@ if option=='glioma_tumor':
                 Difficulty with balance.
                 Urinary incontinence.
                 Vision problems, such as blurred vision, double vision or loss of peripheral vision""")
-else :
-    st.write("please select")
+elif option=='meningioma_tumor':
+    st.writ ("""Common symptoms of Meningioma_tumor:
+                Changes in vision, such as seeing double or blurriness.
+                Headaches, especially those that are worse in the morning.
+                Hearing loss or ringing in the ears.
+                Memory loss.
+                Loss of smell.
+                Seizures.
+                Weakness in your arms or legs.
+                Language difficulty.""") 
+elif option=='pituitary_tumor':
+    st.write("""Nausea and vomiting.
+                Weakness.
+                Feeling cold.
+                Less frequent or no menstrual periods.
+                Sexual dysfunction.
+                Increased amount of urine.
+                Unintended weight loss or gain.""")
+
+else option=None:
+    
