@@ -20,6 +20,6 @@ img=np.asarray(image)
 img_reshape=img[np.newaxis,...]
 st.image(img_reshape, caption='your mri image')
 prediction=model.predict(img_reshape)
-class_names=['glioma', 'pituitary', 'meningioma', 'no']
+class_names=['glioma_tumor','meningioma_tumor','no_tumor','pituitary_tumor']
 string=class_names[np.argmax(prediction)]
 st.write("you have",string)
