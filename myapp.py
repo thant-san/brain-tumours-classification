@@ -16,19 +16,19 @@ model=load_model('cnn_model_65eps.h5')
 
 st.title("Brain tumer classification",)
 st.header("insert ur  mri image",)
-
-st.set_option('deprecation.showfileUploaderEncoding', False)
-file_upload=st.file_uploader("choose the mri file",type=['jpg','png','jpeg'])
-if file_upload is None:
-    def load_lottieurl(url:str):
+def load_lottieurl(url:str):
     r=requests.get(url)
     if r.status_code !=200:
         return None
     return r.json()
- else lottie_coding=load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_iarc855d.json"):
-    st_lottie(lottie_coding,height=100,width=100,key=None)
+st.set_option('deprecation.showfileUploaderEncoding', False)
+file_upload=st.file_uploader("choose the mri file",type=['jpg','png','jpeg'])
+if file_upload is None:
+     lottie_coding=load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_iarc855d.json"):
+     st_lottie(lottie_coding,height=100,width=100,key=None)
+else:    
     image = Image.open(file_upload)
-    size=(150,150)
+    size=(270,270)
     image=ImageOps.fit(image,size,Image.ANTIALIAS)
     img=np.asarray(image)
     img_reshape=img[np.newaxis,...]
