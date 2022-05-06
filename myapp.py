@@ -15,14 +15,14 @@ from streamlit_lottie import st_lottie
 model=load_model('cnn_model_65eps.h5')
 
 st.title("Brain tumer classification",)
-st.header("insert ur  mri image",)
+st.header("Insert ur  mri image",)
 def load_lottieurl(url:str):
     r=requests.get(url)
     if r.status_code !=200:
         return None
     return r.json()
 st.set_option('deprecation.showfileUploaderEncoding', False)
-file_upload=st.file_uploader("choose the mri file",type=['jpg','png','jpeg'])
+file_upload=st.file_uploader("Choose the mri file",type=['jpg','png','jpeg'])
 if file_upload is None:
     lottie_coding=load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_iarc855d.json")
     st_lottie(lottie_coding,height=100,width=100,key=None)
@@ -37,7 +37,7 @@ else:
     prediction=model.predict(img_reshape)
     class_names=['glioma','meningioma','notumor','pituitary']
     string=class_names[np.argmax(prediction)]
-    st.write("you have",string)
+    st.write("you have ",string)
 
 
 expander=st.expander(" you can also check symptons of tumor")
@@ -76,4 +76,8 @@ with expander:
                      Unintended weight loss or gain.""")
     else :
          st.write('please select')
-    
+st.sidebar.write('Developed by INTEL AI')
+lottie_contact=load_lottieurl_1("https://assets7.lottiefiles.com/packages/lf20_zj3qnsfs.json")
+ani=st_lottie(lottie_coding,height=60,width=60,key=None)
+st.sidebar.write("""If you have any issues contact us
+                 thanthtoosan.@mechatronic@gmail.com""",ani)
