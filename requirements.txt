@@ -2,7 +2,7 @@ numpy
 matplotlib
 tensorflow
 opencv-python-headless
-json
+
 requests
 streamlt_lottie
 streamlit==1.9.0
