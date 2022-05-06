@@ -28,7 +28,7 @@ if file_upload is None:
     st_lottie(lottie_coding,height=100,width=100,key=None)
 else:    
     image = Image.open(file_upload)
-    size=(270,270)
+    size=(220,220)
     image=ImageOps.fit(image,size,Image.ANTIALIAS)
     img=np.asarray(image)
     img_reshape=img[np.newaxis,...]
