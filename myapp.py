@@ -77,7 +77,7 @@ with expander:
     else :
          st.write('please select')
 st.sidebar.write('Developed by INTEL AI')
-lottie_contact=load_lottieurl_1("https://assets7.lottiefiles.com/packages/lf20_zj3qnsfs.json")
+lottie_contact=load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_zj3qnsfs.json")
 ani=st_lottie(lottie_contact,height=60,width=60,key=None)
 st.sidebar.write("""If you have any issues contact us
                  thanthtoosan.@mechatronic@gmail.com""",ani)
