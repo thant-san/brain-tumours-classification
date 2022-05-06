@@ -52,7 +52,7 @@ with expander:
                        Weakness in your arms or legs.
                        Language difficulty.""") 
     elif option=='pituitary_tumor':
-         st.write(""" Common symptonms of pituitary:
+         st.write(""" Common symptonms of pituitary_tumor:
                      Nausea and vomiting.
                      Weakness.
                      Feeling cold.
