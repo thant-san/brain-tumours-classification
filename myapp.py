@@ -26,9 +26,10 @@ file_upload=st.file_uploader("choose the mri file",type=['jpg','png','jpeg'])
 if file_upload is None:
     lottie_coding=load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_iarc855d.json")
     st_lottie(lottie_coding,height=100,width=100,key=None)
+    st.write("you haven't put any images yet!")
 else:    
     image = Image.open(file_upload)
-    size=(220,220)
+    size=(227,227)
     image=ImageOps.fit(image,size,Image.ANTIALIAS)
     img=np.asarray(image)
     img_reshape=img[np.newaxis,...]
@@ -39,7 +40,7 @@ else:
     st.write("you have",string)
 
 
-expander=st.expander(" about symptons of tumor")
+expander=st.expander(" you can also check symptons of tumor")
 with expander:
     option=st.selectbox('Select your tumor_type',('glioma_tumor','meningioma_tumor','pituitary_tumor'))
     st.write('You have selected',option)
