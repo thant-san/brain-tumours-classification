@@ -38,10 +38,9 @@ else:
     string=class_names[np.argmax(prediction)]
     st.write("you have",string)
 
-import streamlit as st
+
 expander=st.expander(" about symptons of tumor")
 with expander:
-    
     option=st.selectbox('Select your tumor_type',('glioma_tumor','meningioma_tumor','pituitary_tumor'))
     st.write('You have selected',option)
     if option=='glioma_tumor':
