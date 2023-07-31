@@ -1,4 +1,4 @@
-# Brain Tumer Classification
+# Brain Tumours Classification
 
 >Dataset link:https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
