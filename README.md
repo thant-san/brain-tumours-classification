@@ -27,7 +27,7 @@ _________________________________________________________________
 ### Training accuracy
 ![Untitled](Untitled.png)
 ### Training loss
-![Untitled](https://github.com/thant-san/brain-tumours-classification/assets/102045904/efc2a060-cefa-4136-b8ac-f1aa800c247e)
+![Untitled](training loss.png)
 
 ### Streamlit
 >https://thant-san-prj-mri-myapp-fg8wgb.streamlit.app/
