@@ -25,7 +25,7 @@ _________________________________________________________________
 - opencv
 - tensorflow
 ### Training accuracy
-![Training accuracy](https://github.com/thant-san/brain-tumours-classification/assets/102045904/b8c231b0-03bd-4f7f-afe2-9d67fef6c3b3)
+Untitled.png
 ### Training loss
 ![Untitled](https://github.com/thant-san/brain-tumours-classification/assets/102045904/efc2a060-cefa-4136-b8ac-f1aa800c247e)
 
