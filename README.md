@@ -33,9 +33,10 @@ _________________________________________________________________
 >https://thant-san-prj-mri-myapp-fg8wgb.streamlit.app/
 ### Acknowledgement
 - The model is still not perfect and it is also our first hand on project.
-### Refernce
-- https://github.com/dheerajnbhat/Brain-Tumor-Detection
+
 ### Contributer
 - Thant htoo san
 - Htoo lynn htet
 - Aung moe kyaw
+### Refernce
+- https://github.com/dheerajnbhat/Brain-Tumor-Detection
