@@ -27,7 +27,7 @@ _________________________________________________________________
 ### Training accuracy
 ![Untitled](Untitled.png)
 ### Training loss
-![Untitled](training loss.png)
+![Untitled](trainingloss.png)
 
 ### Streamlit
 >https://thant-san-prj-mri-myapp-fg8wgb.streamlit.app/
