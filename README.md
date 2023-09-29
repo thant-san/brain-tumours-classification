@@ -5,3 +5,6 @@
 >Download datasets directky and unzip it
 
 >Train images 7023 with images size (100,100)
+
+# Streamlit
+>https://thant-san-prj-mri-myapp-fg8wgb.streamlit.app/
