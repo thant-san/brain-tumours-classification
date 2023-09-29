@@ -21,6 +21,8 @@ _________________________________________________________________
 - Total params: 6004304 (22.90 MB)
 - Trainable params: 6004304 (22.90 MB)
 - Non-trainable params: 0 (0.00 Byte)
-
-# Streamlit
+### Requirement
+- opencv
+- tensorflow
+### Streamlit
 >https://thant-san-prj-mri-myapp-fg8wgb.streamlit.app/
