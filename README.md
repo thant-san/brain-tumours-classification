@@ -24,5 +24,7 @@ _________________________________________________________________
 ### Requirement
 - opencv
 - tensorflow
+![Untitled](https://github.com/thant-san/brain-tumours-classification/assets/102045904/7231d532-c290-48b2-ab04-8a23ceb821d5)
+
 ### Streamlit
 >https://thant-san-prj-mri-myapp-fg8wgb.streamlit.app/
